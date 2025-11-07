@@ -1,6 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "multinicho-agents"
 version = "0.1.0"
 requires-python = ">=3.11"
-[tool.ruff]
-line-length = 100
+description = "Agents for multinicho"
+readme = "README.md"
+authors = [{name="Multinicho"}]
+dependencies = []
